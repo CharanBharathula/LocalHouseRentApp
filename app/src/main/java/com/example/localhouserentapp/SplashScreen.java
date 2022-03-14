@@ -21,11 +21,8 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                //This method will be executed once the timer is over
-                // Start your app main activity
                 Intent i = new Intent(SplashScreen.this, LoginScreen.class);
                 startActivity(i);
-                // close this activity
                 finish();
             }
         }, 3000);

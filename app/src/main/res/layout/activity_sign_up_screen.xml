@@ -55,6 +55,7 @@
                     android:hint="Enter Mobile">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:inputType="number"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -98,6 +99,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:visibility="gone"
                 android:id="@+id/registerLayout"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
